@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Noto Sans', sans-serif;
+}
+/* header design*/
+
+header{
+    display: inline-block;
+    padding: 2rem 4rem;
+    height: 500px;
+    min-height: 70%;
+    background-image: url('images/top-banner.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header h1,
+.second h1{
+    text-transform: capitalize;
+    margin-bottom: 3rem;
+    font-size: 2rem;
+}
+h3{
+    text-transform: capitalize;
+    margin-bottom: 2rem;
+}
+
+h1 span{
+    text-transform: uppercase;
+    color: #6a4adb;
+}
+header img,.second img{
+    width: 80%;
+}
+header div,.second div{
+    width: 45%;
+    
+}
+header .header-discription{
+    float: left;
+    padding: 1.5rem 3rem;
+}
+header p,
+.second p{
+    margin-bottom: 2rem;
+    color: rgb(104, 103, 100);
+}
+header .header-img{
+    float: right;
+    margin-left: 1rem;
+}
+header button,
+.second button{
+    background: linear-gradient(to bottom right,#e01c6b,#fc3f8b);
+    border: none;
+    border-radius: .3rem;
+    padding: 1rem 1.5rem;
+    text-transform: uppercase;
+}
+header button a,
+.second button a{
+    text-decoration: none;
+    color: #ffffff;
+}
+header button:hover,
+.second button:hover{
+    border: 2px solid rgb(133, 5, 69);
+}
+
+/*second section*/
+
+.second{
+    display: inline-block;
+    padding: 2rem 4rem;
+    height: 500px;
+    background-image: url('images/dream-bg.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+.second .second-img{
+    float: left;
+}
+.second .second-img img,
+.second .second-discription h1{
+    margin-top: 4rem;
+}
+.second .second-discription{
+    float: left;
+    padding: 1.5rem;
+    margin-left: 1rem;
+}
+
+/*experience section*/
+
+h2{
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+.exp{
+    padding: 2rem 4rem;
+    height: 500px;
+    background-image: url('images/exp-bg.png');
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+
+.exp div{
+    width: 40%;
+    height: 18rem;
+    float: left;
+    padding: 2rem 3rem;
+    margin-left: 10%;
+    box-shadow: .4rem .4rem .8rem gray;
+    border-radius: .2rem;
+}
+.exp h3{
+    color: rgb(18, 196, 219);
+}
+.exp .part1{
+    border-left: .4rem solid;
+    border-image: linear-gradient(to bottom,#fc3f8b,#8a0758);
+    border-image-slice: 1;
+}
+.exp .part2{
+    border-left: .4rem solid;
+    border-image: linear-gradient(to bottom,#17b9e2,#1b078a);
+    border-image-slice: 1;
+}
+
+footer{
+    text-align: center;
+    padding: 1rem 0;
+    background: rgb(163, 165, 160);
+    color: rgb(68, 67, 67);
+}
